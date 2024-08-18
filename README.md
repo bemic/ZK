@@ -28,14 +28,13 @@ Key properties of Zero Knowledge
 
 ### Fiat-shamir
 
-The heart of ZK proofs. It gives the ability to interactive protocols to be NON-interactive. It means only one message is necessary from prover to verifier. The interactive system is converted to the non interactive one using FS transformation. 
+It gives the ability to interactive protocols to be NON-interactive. It means only one message is necessary from prover to verifier. The interactive system is converted to the non interactive one using FS transformation. 
 
 From:
 - Prover send initial message, the commitment
-- Verifier responding with a truly random challenge
+- Verifier responding with a random challenge
 - Prover computing final proof based on commitment and challege
 - Verifier accepts or rejects
-
 
 
 To:
