@@ -6,7 +6,7 @@ Key properties of Zero Knowledge
     _(Usual bugs: **under-contrained** not enough conditions in circuits)_
 * Completness - If I know secret I must be able to prove it     
     _(Usual bugs: **over-contrained** conditions are too strict)_
-* Zero knowledge - No info leaked 
+* Zero knowledge - No info leaked
     _(Not that usual: mistake in crypto algorithm implementation)_
 
 
